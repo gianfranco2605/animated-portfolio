@@ -5,6 +5,7 @@ import Services from "./components/services/Services";
 
 import "./app.scss"
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return <div className="element">
@@ -16,7 +17,9 @@ const App = () => {
     <section><Services /></section>
     <section id="Portafolio"><Parallax type="portfolio" /></section>
     <Portfolio /> 
-    <section id="Contact">Contact</section>
+    <section id="Contact">
+      <Contact />
+    </section>
   </div>;
 };
 
