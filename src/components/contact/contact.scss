@@ -24,6 +24,14 @@
 
     .formContainer {
         flex: 1;
+        position: relative;
+
+        .phoneSvg {
+            position: absolute;
+            margin: auto;
+            stroke: #00c4d3;
+            z-index: -1;
+        }
 
         form  {
             display: flex;

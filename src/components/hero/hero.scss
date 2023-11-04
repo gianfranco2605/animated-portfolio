@@ -17,6 +17,7 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
+           
 
             h2 {
                 font-size: 30px;
@@ -28,7 +29,7 @@
                 font-size: 88px;
             }
             .buttons {
-
+                z-index: 999;
                 button {
                     padding: 25px;
                     background-color: #00c4d3;
