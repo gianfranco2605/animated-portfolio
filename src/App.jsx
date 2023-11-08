@@ -6,9 +6,12 @@ import Services from "./components/services/Services";
 import "./app.scss"
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
-  return <div className="element">
+  return (
+  <div>
+    <Cursor />
     <section id="Homepage">
       <Navbar />
       <Hero />
@@ -20,7 +23,8 @@ const App = () => {
     <section id="Contact">
       <Contact />
     </section>
-  </div>;
+  </div>
+  );
 };
 
 export default App;

@@ -12,13 +12,13 @@ const items = [
         desc: "Piataforma e-commerce che permette a gli usuari di cercare, comprare vestimenti medici e non solo. La piattaforma offre un'esperienza di acquisto online facile e intuitiva, con funzionalità come la ricerca avanzata e molto altre(in fase sviluppo)"
     },
     {
-        id: 1,
+        id: 2,
         title: "BTM Machines",
         img: "./btmmachines.png",
         desc: "Abbiamo creato una pagina da zero su WordPress, sviluppando un tema personalizzato e integrando API per la ricerca interattiva sulla mappa. Ora puoi trovare facilmente gli ATM Bitcoin Machines più vicini grazie al nostro lavoro di sviluppo dedicato."
     },
     {
-        id: 1,
+        id: 3,
         title: "Personal Portfolio",
         img: "./portfolio.png",
         desc: "Applicazione web personale realizzata con React, utilizzando le diverse funzionalità offerte dal framework, chiamate hooks. Si tratta di un progetto innovativo e all'avanguardia che ti permetterà di sfruttare appieno le potenzialità di questa tecnologia per lo sviluppo web."
